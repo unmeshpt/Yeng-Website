@@ -287,9 +287,16 @@ nav a#pull {
 .appp {
 	text-align: right;
 }
+.appp {   
+	width: auto;
+	display: inline-block;    
+  }
+  
 .appp img {
-	width: 71%;
-}
+	padding-top:100px;
+	width: 75%; /* Will shrink image to 30% of its original width */
+	height: auto;    
+  }​
 /*--about--*/
 .about{
 	padding:7em 0;
